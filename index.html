@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Saptarshi Paul-Portflio Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" media="screen and (max-width: 1200px)"   href="phone.css">
+</head>
+<body>
+     
+         <div class="navigation">
+            <div class="nav-left">
+                 <p> S<span>aptarshi's</span> P<span>ortflio</span></p>
+            </div>
+            <div class="nav-right">
+                <ul id="menubar"   >
+                    <li><a href=" #home "> Home</a></li>
+                    <li><a href="  #about "> About Me</a></li>
+                    <li><a href=" #services "> Services</a></li>
+                    <li><a href=" #project "> Projects</a></li>
+                    <li><a href= " "> Clients</a></li>
+                    <li><a href=" #contact "> Contact Me</a></li>
+                    <i class="fa fa-circle-xmark" onclick="hidemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="showmenu()"></i>
+    
+            </div>
+
+         </div>
+         <div id="home">
+            <div class="home-right">
+                <img src="bg1.png">
+            </div>
+            <div class="home-left">
+                <p> Hi , I'm <span> Saptarshi </span></p>
+                <p1>a  Passionate Front-End Developer ,</p1>
+                <span id="element"></span>
+                <button id="btn" onclick="Download()"> Download My Resume</button>
+            </div>
+            
+         </div>
+         <div id="about">
+            
+            <div class="about-left">
+                 <img src="photobg.png">
+            </div>
+            <div class="about-right">
+                 <h1> About Me</h1>
+                 <p id="info">  Hello Everyone ,<br> Saptarshi this side , a Front-End Developer from Kolkata -India.<br> I am currently Majoring in Computer Science ( Btech) from Techno Main Salt Lake .<br> I am a noob in the Developement field aspiring to be a Full Stack Developer <br>having prior knowledge in HTML , CSS , JavaScript and Bootstrap .<br> Really excited to learn and grow together , so lets connect and do some great stuff !!</p>
+                 <button id="btn3" onclick="hide()"> Hide / Show Content</button>
+                 <br>
+                 <p1 id="para">
+                 <ul>
+                    <li> <span> Skills Known</span><br>
+                        Front-End : HTML, CSS , JavaScript , Bootstrap<br>
+                        Back-End : Learning in Progress<br>
+                        DataBases : Learning in Progress<br>
+                        Programming Languages : JAVA<br>
+                    </li><br>
+                    <li> <span> Education Qualification</span> <br>
+                        School : Vivekananda Mission School (2007-2022)<br>
+                        Collge: Techno Main Salt Lake ( 2023-2027)<br>
+
+                    </li>
+                 </ul>
+                 </p1>
+                 <button id="btn2" onclick="togglehide()"> Show More / Show Less</button>
+            </div>
+            
+            
+         </div>
+          <div class="service-heading">
+             <h1> My Services</h1>
+          </div>
+         <div id="services">
+             <div class="service-1">
+                <i class="fa-solid fa-code  fa-xl"></i>
+                 <h2> Front -End Development</h2>
+                 <p> I am currently a Front-End Developer having knowledge on HTML , CSS , JavaScript and Bootstrap . I had done some frontend Projects that are available in my Github account . If you are interested to collab with me , you can surely have a look on my Projects.</p>
+             </div>
+             <div class="service-2">
+                <i class="fa-brands fa-codepen  fa-xl"></i>
+                 <h2> Web Design</h2>
+                 <p> Web Design  refers to the designing of the websites that are displayed on the Internet .As a web designer , I usually create the layout and design of a website that makes the site looks good.</p>
+             </div>
+             <div class="service-3">
+                <i class="fa-solid fa-crop  fa-xl"></i>
+                 <h2> Video Editing</h2>
+                 <p> Video editing is the manipulation and arrangement of video shots. Video editing is used to structure and present all video information, including films and television shows, video advertisements and video essays. </p>
+             </div>
+         </div>
+         <div class="project-heading">
+            <h1> My Projects</h1>
+         </div>
+         <div id="project">
+            <div class="project-1">
+                <img src="project1.jpg">
+                <div class="layer">
+                    <h3>Shopify Website  <a href="  https://saptarshi122.github.io/Shopify1/"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                        <button id="btn4" onclick=" less1()"><i class="fa-solid fa-plus" ></i></button> 
+                    </h3>
+                    <p id="hide1">A Responsive website built using HTML , CSS and JavaScript that shows some of the top deals of the day of Smartphones , laptops and other Electronic Gadgets </p>  
+                </div>
+            </div>
+            <div class="project-2">
+                <img src="project2.jpg">
+                <h3> MyOnlineMeals <a href="  http://saptarshi2003.netlify.app"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <button id="btn5" onclick="less2()"> <i class="fa-solid fa-plus"></i></button>
+                </h3>
+                <p id="hide2"> A Food Delivery Website built using HTML and CSS hosted throgh Github Pages 
+                    that conatins various cuisines and get delivered within 30 mins </p>
+
+            </div>
+            <div class="project-3">
+                 <img src="project3.png">
+                 <h3> Confession Website <a href=" https://saptarshi122.github.io/My-Love/ "> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <button id="btn6" onclick="less3()"> <i class="fa-solid fa-plus"></i></button>
+                </h3>
+                 <p id="hide3"> A Website bulit using JavaScript interactions such as Prmots , Confirm and Alert that will help you confess your feelings to your Crush in a  Different way   </p>
+                       
+            </div>
+        </div>
+        <div class="button">
+        <button id="main-button" onclick="message()"><a href="htttps://github.com/Saptarshi122 "> See More Projects</a> </button>
+        </div>
+        <div class="contact-heading">
+            <h1> Contact Me</h1>
+        </div>
+        <div id="contact">
+            <div class="contact-left">
+                <p><i class="fa-solid fa-envelope"></i>
+                    saptarshi2027paul@gmail.com
+                </p>
+                <p><i class="fa-solid fa-phone"></i>
+                    7980588896
+                </p>
+                <div class="social-links">
+               <a href="https://github.com/Saptarshi122" ><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/saptarshi-paul-761124276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fa-brands fa-linkedin"></i></a>
+                <a href="  "><i class="fa-brands fa-twitter"></i></a>
+               <a href=" https://instagram.com/sapta_dev27?igshid=OGQ5ZDc2ODk2ZA== "> <i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <button class="collab" onclick="collab()">Collab With Me</button>
+            </div>
+            <div class="contact-right">
+              <form>
+                <input type="text" class="name" placeholder=" Enter Your Name"><br>
+                <input type="number" class="number" placeholder="   Enter Your Phone Number"><br>
+                <input type="text" class="email" placeholder="  Enter Your Email"><br>
+                <textarea  name="Doubt" rows="5" placeholder=" Enter Your Message/ Question"></textarea>
+              </form>
+              <button class="submit" onclick="submit()"> Submit</button>
+            </div>
+        </div>
+        
+    
+         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+         
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: [ 'Freshman at TMSL','Tech Enthatusiast', 'Web Developer', ' UI UX Designer' , ' Web Designer' , ' Java Programmer' , ' Aspiring Data Scientist' ],
+      typeSpeed: 20,
+    });
+    function Download(){
+        let a1= alert( " Are You Sure that you want to download my Resume");
+        console.log(a1);
+    }
+    function togglehide(){
+     let button = document.getElementById('btn2');
+     let paragraph = document.getElementById(' para');
+     if ( para.style.display !='none'){
+        para.style.display='none';
+     }
+     else{
+        para.style.display='block';
+     }
+    }
+    function hide(){
+        let paragraph1 = document.getElementById('info');
+        let button1= document.getElementById( 'btn3');
+        if (info.style.display !='none'){
+            info.style.display='none';
+        }
+        else{
+            info.style.display='block';
+        }
+    }
+    function less1(){
+        let but1 = document.getElementById('btn4');
+        let para1= document.getElementById('hide1');
+        if ( para1.style.display!='none'){
+            para1.style.display='none';
+        }
+        else{
+            para1.style.display='block';
+        }
+    }
+    function less2(){
+        let but2 = document.getElementById('btn5');
+        let para2= document.getElementById('hide2');
+        if ( para2.style.display!='none'){
+            para2.style.display='none';
+        }
+        else{
+            para2.style.display='block';
+        }
+
+    }
+    function less3(){
+        let but3 = document.getElementById('btn6');
+        let para3= document.getElementById('hide3');
+        if ( para3.style.display!='none'){
+            para3.style.display='none';
+        }
+        else{
+            para3.style.display='block';
+        }
+
+    }
+    function message(){
+        let a = alert( " Are you sure that you want to check my others projects");
+        console.log(a);
+        let b = alert( " If You want to see my other projects , they are present in my Github account");
+        console.log(b);
+        let c= prompt( " Do you have a Github Account , if say please mention your Name");
+        console.log( c);
+        let d = confirm( " Confirm 'Yes' if you are ready to leave this site and redirect to my Github account");
+        console.log(d);
+    }
+    function collab(){
+        let alert1= alert(" Are You Sure You want to Collab with me , if sure continue OK");
+        console.log(alert1);
+        let prompt1= prompt(" Please enter your Skills and known Technologies");
+        console.log(prompt1);
+        let alert2= alert(" I will soon reach out to you , kindly fill your contact details in the form section");
+        console.log( alert2);
+    }
+    function submit(){
+         let alert1 =alert( " Kindly Check whether you have entered correct Contact Details of Yours");
+         console.log( alert1);
+         let confirm1 = confirm( " Are You Sure to Submit the Form ?");
+         console.log( confirm1);
+    }
+     let menu =document.getElementById('menubar');
+         function showmenu(){
+              menu.style.right="0";
+         }
+         function hidemenu(){
+            menu.style.right="-100px";
+         }
+
+  </script>
+   
+</body>
+</html>

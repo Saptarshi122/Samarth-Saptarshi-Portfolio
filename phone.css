@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav-right .fa{
+    display: block;
+
+}
+.nav-right .fa-solid{
+    display: block;
+
+}
+.nav-right ul{
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    right: -100px;
+    width: 100px;
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.nav-right ul li {
+    margin: 5px;
+    font-size: 1.5rem;
+}
+.nav-right .fa{
+    position: absolute;
+    top: 80px ;
+    right: 40px;
+    font-size: 35px;
+    color: #ffffff;
+}
+.nav-right .fa-solid{
+    position: absolute;
+    top: 25px ;
+    right: 35px;
+    font-size: 35px;
+    color: crimson;
+}
+.nav-left p{
+    font-size: 2.5rem;
+}
+.nav-left p span{
+    font-size: 1.8rem;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+}
+.home-right img{
+    width:200%;
+}
+.home-left p{
+    font-size: 1.5rem;
+}
+.home-left p1{
+    font-size: 1rem;
+}
+.home-left p span{
+    font-size: 2rem;
+}
+.home-left{
+    width: 100%;
+    padding:5px 5px;
+    margin: 3px 3px;
+}
+#element{
+     font-size: 1.5rem;
+}
+#btn{
+    padding: 10px 10px;
+    margin: 5px 5px;
+}
+#about{
+     display: flex;
+     flex-direction: column;
+}
+.about-right{
+    padding: 10px 10px;
+    margin-left: 20px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact-right{
+    width:100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contact-left{
+    width:100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.service-heading h1{
+    font-size: 2.5rem;
+}
+.project-heading h1{
+    font-size: 2.5rem;
+}
+.contact-heading h1{
+    font-size: 2.5rem;
+}
